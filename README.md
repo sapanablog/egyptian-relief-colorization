@@ -47,28 +47,13 @@ results → Example colorized outputs
 
 ## Example Results
 
-### Example 1
+## Example Result
 
-Input Image  
+Below is an example showing the full pipeline from grayscale relief image to final colorized output.
 
-![Input](color2/iColoriT/data/test_images/egypt_04.jpg)
-
-Colorized Output  
-
-![Output](color2/iColoriT/results/egypt_04_colorized.png)
-
----
-
-### Example 2
-
-Input Image  
-
-![Input](color2/iColoriT/data/test_images/egypt_18.jpg)
-
-Colorized Output  
-
-![Output](color2/iColoriT/results/egypt_18_colorized.png)
-
+| Input Image | Pigment Mask | Colorized Output |
+|-------------|--------------|------------------|
+| ![](color2/iColoriT/data/test_images/egypt_04.jpg) | ![](color2/iColoriT/data/test_masks/egypt_04.png) | ![](color2/iColoriT/results/egypt_04_colorized.png) |
 ## Technologies Used
 
 Python
@@ -78,8 +63,11 @@ Vision Transformers
 
 ---
 
-## Author
+## Thesis
 
-Sapana Gupta
-MSc Computer Science
-University of Würzburg
+This repository contains the implementation developed for the MSc thesis:
+
+**“Colorization of Egyptian Relief Images using Deep Learning”**
+
+University of Würzburg  
+Author: Sapana Gupta
