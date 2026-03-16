@@ -2,10 +2,10 @@
 
 ## Overview
 
-This project explores automatic colorization of ancient Egyptian relief images using deep learning.
+This project investigates automatic colorization of ancient Egyptian relief images using deep learning techniques.
 
 Ancient reliefs appear mostly grayscale today due to pigment degradation.
-This project reconstructs plausible color representations using a combination of segmentation, hint generation, and transformer-based colorization.
+The proposed system reconstructs plausible color representations using segmentation-based hint generation and transformer-based image colorization.
 
 The system is built using PyTorch and is based on the **IColoriT Vision Transformer model**.
 
@@ -45,8 +45,6 @@ results → Example colorized outputs
 
 ---
 
-## Example Results
-
 ## Example Result
 
 Below is an example showing the full pipeline from grayscale relief image to final colorized output.
@@ -67,7 +65,10 @@ Vision Transformers
 
 This repository contains the implementation developed for the MSc thesis:
 
-**“Colorization of Egyptian Relief Images using Deep Learning”**
+**Colorization of Egyptian Relief Images using Deep Learning**
 
 University of Würzburg  
-Author: Sapana Gupta
+
+📄 **Thesis Report:**  
+[Read the full thesis](https://drive.google.com/file/d/1Je_2rfI6HW62-jpcxVK1mAwsxOZ5V4QL/view?usp=sharing)
+
